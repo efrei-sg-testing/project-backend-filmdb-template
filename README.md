@@ -11,6 +11,7 @@ Elle permettra également d'effectuer une recherche selon les différentes propr
 
 Déjà installés :
 
+- Installer les dépendances `npm install`
 - Jest `npm test`
   - Vous pouvez écrire les tests unitaires, d'intégration et end-to-end avec jest. Pour les tests end-to-end, utilisez `fetch()` avec Jest
 - Express `npm start`
