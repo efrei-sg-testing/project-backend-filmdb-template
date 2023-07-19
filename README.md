@@ -12,11 +12,12 @@ Elle permettra également d'effectuer une recherche selon les différentes propr
 Déjà installés :
 
 - Jest `npm test`
+  - Vous pouvez écrire les tests unitaires, d'intégration et end-to-end avec jest. Pour les tests end-to-end, utilisez `fetch()` avec Jest
 - Express `npm start`
 - ESlint, Prettier
 - Babel, Babel-node, pour utiliser une syntaxe moderne sans soucis. `npx babel-node fichier.js` pour exécuter un fichier particulier avec babel.
 
-## Fonctionnalités essentielles
+## Fonctionnalités de base
 
 - Stocker un ensemble de films
   - Nom, Année, Miniature, emplacement du fichier vidéo, liste d'acteurs, synopsis, genre, réalisateur
@@ -43,13 +44,13 @@ API REST JSON :
 
 ## Barème et notation
 
-- Le plus important est la qualité du code et la qualité des tests. Préférez implémenter moins de fonctionnalités mais mieux.
+- Le plus important est la qualité du code et la qualité des tests. **Préférez implémenter moins de fonctionnalités mais mieux.**
 
-| Topic                   | Points     |
-| ----------------------- | ---------- |
-| Project features        | 8          |
-| Unit tests              | 4          |
-| E2E & Integration tests | 4          |
-| Code quality : naming   | 1          |
-| Code quality : general  | 3          |
-| Git usage               | +2 (Bonus) |
+| Topic                       | Points     |
+| --------------------------- | ---------- |
+| Project features            | 8          |
+| Unit tests                  | 4          |
+| E2E et/ou Integration tests | 4          |
+| Code quality : naming       | 1          |
+| Code quality : general      | 3          |
+| Git usage                   | +2 (Bonus) |
